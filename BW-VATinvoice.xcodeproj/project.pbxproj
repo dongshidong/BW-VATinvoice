@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D61A05A1C4E429400B46B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D61A0591C4E429400B46B99 /* main.m */; };
+		9D61A05D1C4E429400B46B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D61A05C1C4E429400B46B99 /* AppDelegate.m */; };
+		9D61A0601C4E429400B46B99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D61A05F1C4E429400B46B99 /* ViewController.m */; };
+		9D61A0631C4E429400B46B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D61A0611C4E429400B46B99 /* Main.storyboard */; };
+		9D61A0651C4E429400B46B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D61A0641C4E429400B46B99 /* Assets.xcassets */; };
+		9D61A0681C4E429400B46B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D61A0661C4E429400B46B99 /* LaunchScreen.storyboard */; };
+		9D61A0731C4E429400B46B99 /* BW_VATinvoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D61A0721C4E429400B46B99 /* BW_VATinvoiceTests.m */; };
+		9D61A07E1C4E429400B46B99 /* BW_VATinvoiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D61A07D1C4E429400B46B99 /* BW_VATinvoiceUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D61A06F1C4E429400B46B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D61A04D1C4E429400B46B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D61A0541C4E429400B46B99;
+			remoteInfo = "BW-VATinvoice";
+		};
+		9D61A07A1C4E429400B46B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D61A04D1C4E429400B46B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D61A0541C4E429400B46B99;
+			remoteInfo = "BW-VATinvoice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D61A0551C4E429400B46B99 /* BW-VATinvoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BW-VATinvoice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D61A0591C4E429400B46B99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D61A05B1C4E429400B46B99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D61A05C1C4E429400B46B99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D61A05E1C4E429400B46B99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D61A05F1C4E429400B46B99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D61A0621C4E429400B46B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D61A0641C4E429400B46B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D61A0671C4E429400B46B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D61A0691C4E429400B46B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D61A06E1C4E429400B46B99 /* BW-VATinvoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BW-VATinvoiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D61A0721C4E429400B46B99 /* BW_VATinvoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BW_VATinvoiceTests.m; sourceTree = "<group>"; };
+		9D61A0741C4E429400B46B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D61A0791C4E429400B46B99 /* BW-VATinvoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BW-VATinvoiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D61A07D1C4E429400B46B99 /* BW_VATinvoiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BW_VATinvoiceUITests.m; sourceTree = "<group>"; };
+		9D61A07F1C4E429400B46B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D61A0521C4E429400B46B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D61A06B1C4E429400B46B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D61A0761C4E429400B46B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D61A04C1C4E429400B46B99 = {
+			isa = PBXGroup;
+			children = (
+				9D61A0571C4E429400B46B99 /* BW-VATinvoice */,
+				9D61A0711C4E429400B46B99 /* BW-VATinvoiceTests */,
+				9D61A07C1C4E429400B46B99 /* BW-VATinvoiceUITests */,
+				9D61A0561C4E429400B46B99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D61A0561C4E429400B46B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D61A0551C4E429400B46B99 /* BW-VATinvoice.app */,
+				9D61A06E1C4E429400B46B99 /* BW-VATinvoiceTests.xctest */,
+				9D61A0791C4E429400B46B99 /* BW-VATinvoiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D61A0571C4E429400B46B99 /* BW-VATinvoice */ = {
+			isa = PBXGroup;
+			children = (
+				9D61A05B1C4E429400B46B99 /* AppDelegate.h */,
+				9D61A05C1C4E429400B46B99 /* AppDelegate.m */,
+				9D61A05E1C4E429400B46B99 /* ViewController.h */,
+				9D61A05F1C4E429400B46B99 /* ViewController.m */,
+				9D61A0611C4E429400B46B99 /* Main.storyboard */,
+				9D61A0641C4E429400B46B99 /* Assets.xcassets */,
+				9D61A0661C4E429400B46B99 /* LaunchScreen.storyboard */,
+				9D61A0691C4E429400B46B99 /* Info.plist */,
+				9D61A0581C4E429400B46B99 /* Supporting Files */,
+			);
+			path = "BW-VATinvoice";
+			sourceTree = "<group>";
+		};
+		9D61A0581C4E429400B46B99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D61A0591C4E429400B46B99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D61A0711C4E429400B46B99 /* BW-VATinvoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D61A0721C4E429400B46B99 /* BW_VATinvoiceTests.m */,
+				9D61A0741C4E429400B46B99 /* Info.plist */,
+			);
+			path = "BW-VATinvoiceTests";
+			sourceTree = "<group>";
+		};
+		9D61A07C1C4E429400B46B99 /* BW-VATinvoiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D61A07D1C4E429400B46B99 /* BW_VATinvoiceUITests.m */,
+				9D61A07F1C4E429400B46B99 /* Info.plist */,
+			);
+			path = "BW-VATinvoiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D61A0541C4E429400B46B99 /* BW-VATinvoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D61A0821C4E429400B46B99 /* Build configuration list for PBXNativeTarget "BW-VATinvoice" */;
+			buildPhases = (
+				9D61A0511C4E429400B46B99 /* Sources */,
+				9D61A0521C4E429400B46B99 /* Frameworks */,
+				9D61A0531C4E429400B46B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BW-VATinvoice";
+			productName = "BW-VATinvoice";
+			productReference = 9D61A0551C4E429400B46B99 /* BW-VATinvoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D61A06D1C4E429400B46B99 /* BW-VATinvoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D61A0851C4E429400B46B99 /* Build configuration list for PBXNativeTarget "BW-VATinvoiceTests" */;
+			buildPhases = (
+				9D61A06A1C4E429400B46B99 /* Sources */,
+				9D61A06B1C4E429400B46B99 /* Frameworks */,
+				9D61A06C1C4E429400B46B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D61A0701C4E429400B46B99 /* PBXTargetDependency */,
+			);
+			name = "BW-VATinvoiceTests";
+			productName = "BW-VATinvoiceTests";
+			productReference = 9D61A06E1C4E429400B46B99 /* BW-VATinvoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D61A0781C4E429400B46B99 /* BW-VATinvoiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D61A0881C4E429400B46B99 /* Build configuration list for PBXNativeTarget "BW-VATinvoiceUITests" */;
+			buildPhases = (
+				9D61A0751C4E429400B46B99 /* Sources */,
+				9D61A0761C4E429400B46B99 /* Frameworks */,
+				9D61A0771C4E429400B46B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D61A07B1C4E429400B46B99 /* PBXTargetDependency */,
+			);
+			name = "BW-VATinvoiceUITests";
+			productName = "BW-VATinvoiceUITests";
+			productReference = 9D61A0791C4E429400B46B99 /* BW-VATinvoiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D61A04D1C4E429400B46B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = baiwang;
+				TargetAttributes = {
+					9D61A0541C4E429400B46B99 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9D61A06D1C4E429400B46B99 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9D61A0541C4E429400B46B99;
+					};
+					9D61A0781C4E429400B46B99 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9D61A0541C4E429400B46B99;
+					};
+				};
+			};
+			buildConfigurationList = 9D61A0501C4E429400B46B99 /* Build configuration list for PBXProject "BW-VATinvoice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D61A04C1C4E429400B46B99;
+			productRefGroup = 9D61A0561C4E429400B46B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D61A0541C4E429400B46B99 /* BW-VATinvoice */,
+				9D61A06D1C4E429400B46B99 /* BW-VATinvoiceTests */,
+				9D61A0781C4E429400B46B99 /* BW-VATinvoiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D61A0531C4E429400B46B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D61A0681C4E429400B46B99 /* LaunchScreen.storyboard in Resources */,
+				9D61A0651C4E429400B46B99 /* Assets.xcassets in Resources */,
+				9D61A0631C4E429400B46B99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D61A06C1C4E429400B46B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D61A0771C4E429400B46B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D61A0511C4E429400B46B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D61A0601C4E429400B46B99 /* ViewController.m in Sources */,
+				9D61A05D1C4E429400B46B99 /* AppDelegate.m in Sources */,
+				9D61A05A1C4E429400B46B99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D61A06A1C4E429400B46B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D61A0731C4E429400B46B99 /* BW_VATinvoiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D61A0751C4E429400B46B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D61A07E1C4E429400B46B99 /* BW_VATinvoiceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D61A0701C4E429400B46B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D61A0541C4E429400B46B99 /* BW-VATinvoice */;
+			targetProxy = 9D61A06F1C4E429400B46B99 /* PBXContainerItemProxy */;
+		};
+		9D61A07B1C4E429400B46B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D61A0541C4E429400B46B99 /* BW-VATinvoice */;
+			targetProxy = 9D61A07A1C4E429400B46B99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D61A0611C4E429400B46B99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D61A0621C4E429400B46B99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D61A0661C4E429400B46B99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D61A0671C4E429400B46B99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D61A0801C4E429400B46B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D61A0811C4E429400B46B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D61A0831C4E429400B46B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BW-VATinvoice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.www.BW-VATinvoice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D61A0841C4E429400B46B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BW-VATinvoice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.www.BW-VATinvoice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D61A0861C4E429400B46B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BW-VATinvoiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.www.BW-VATinvoiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BW-VATinvoice.app/BW-VATinvoice";
+			};
+			name = Debug;
+		};
+		9D61A0871C4E429400B46B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BW-VATinvoiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.www.BW-VATinvoiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BW-VATinvoice.app/BW-VATinvoice";
+			};
+			name = Release;
+		};
+		9D61A0891C4E429400B46B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BW-VATinvoiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.www.BW-VATinvoiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BW-VATinvoice";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9D61A08A1C4E429400B46B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BW-VATinvoiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.www.BW-VATinvoiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BW-VATinvoice";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D61A0501C4E429400B46B99 /* Build configuration list for PBXProject "BW-VATinvoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D61A0801C4E429400B46B99 /* Debug */,
+				9D61A0811C4E429400B46B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D61A0821C4E429400B46B99 /* Build configuration list for PBXNativeTarget "BW-VATinvoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D61A0831C4E429400B46B99 /* Debug */,
+				9D61A0841C4E429400B46B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D61A0851C4E429400B46B99 /* Build configuration list for PBXNativeTarget "BW-VATinvoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D61A0861C4E429400B46B99 /* Debug */,
+				9D61A0871C4E429400B46B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D61A0881C4E429400B46B99 /* Build configuration list for PBXNativeTarget "BW-VATinvoiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D61A0891C4E429400B46B99 /* Debug */,
+				9D61A08A1C4E429400B46B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D61A04D1C4E429400B46B99 /* Project object */;
+}
