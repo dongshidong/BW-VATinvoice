@@ -492,7 +492,7 @@
 				INFOPLIST_FILE = "BW-VATinvoice/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.www.BW-VATinvoice";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.BW-VATinvoice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -505,7 +505,7 @@
 				INFOPLIST_FILE = "BW-VATinvoice/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.www.BW-VATinvoice";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.BW-VATinvoice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
